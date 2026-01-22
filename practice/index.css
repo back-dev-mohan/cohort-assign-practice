@@ -1,0 +1,25 @@
+body {
+background-color: black;
+color: white;
+}
+
+.banner{
+  background: green;
+  box-shadow: 3px;
+  margin: 4px 4px;
+  padding: 4px 4px
+}
+@font-face {
+  font-family: "Lexend";
+  src: url("https://fonts.googleapis.com");
+}
+/* @font-face {
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+.body-all{
+   
+}
+#flex-box

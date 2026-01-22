@@ -1,0 +1,77 @@
+/* * { box-sizing: border-box; }
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  background: #111; /* page background if you want a border around panels */
+/* } */ */
+/* .panel.left h1,
+h1.contact-heading {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+  font-weight: 30-0;
+  font-display: swap;
+} */
+.container{ 
+  display: flex;
+  background-color: red;
+  width: 100%;
+  min-height: 100vh;
+  border: 1px solid black
+}
+.top-bar{
+  min-width: 2200px;
+  border: 1px solid grey;
+  display: flex;
+  min-height: 100vh;
+
+}
+.panel.left{
+ 
+background: black;
+color: #fff;
+min-height: 100vh;
+border: 1px solid grey;
+outline: 1px solid blue;
+display: flex;
+flex: 1;
+flex-direction: column;
+justify-content: flex-start;
+
+}
+.h1{
+  margin-bottom: 24px;
+  font-size: 3rem;
+  font-weight: bold;
+  /* grid-column: span 12; */
+}
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}.left-main {
+  margin-top: 4vh;
+}
+.left-footer p:first-child {
+  margin-top: 40px;
+}.panel.right{
+  background-color: #ffff;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.li-style{
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  top: 0%;
+  font-size: 2em;
+  margin: 18px;
+  font-weight: bold;
+  opacity: 75%;
+
+}
